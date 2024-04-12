@@ -62,6 +62,7 @@ const ImageGrid: React.FC<ImageGridProps> = () => {
           />
         ))}
       </div>
+      
     </div>
   );
 };
