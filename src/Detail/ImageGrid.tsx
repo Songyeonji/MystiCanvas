@@ -47,7 +47,7 @@ const ImageGrid: React.FC<ImageGridProps> = () => {
     };
     img.src = src; // 랜덤 이미지 로드 시작
   }, [src]);
-
+//
   return (
     <div>
       <button onClick={fetchRandomImage}>Load Random Image</button>
@@ -62,7 +62,7 @@ const ImageGrid: React.FC<ImageGridProps> = () => {
           />
         ))}
       </div>
-      
+
     </div>
   );
 };
